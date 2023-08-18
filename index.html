@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@1,200&family=Inter:wght@400;700&family=Poppins:wght@300;400;500&family=Roboto:wght@300;500&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/73a0df3b3b.js" crossorigin="anonymous"></script>
+    <title>Portfolio - Rogovoy Sergey</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="conteiner">
+            <nav>
+                <span class="logo1">RogSer</span>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Servises</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend developer</p>
+                <h1>Hi, I'm <span>Rogovoy Sergey</span> <br> From Ukraine</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <section id="about">
+        <div class="conteiner">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/photo2.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        Considering my age of 16, I demonstrate exceptional dedication and passion for frontend
+                        development. Over 10 years of my life journey have been devoted to Greco-Roman wrestling, which
+                        has equipped me with valuable skills such as resilience, discipline, and teamwork. Additionally,
+                        I have acquired significant experience in frontend development over the past years. My knowledge
+                        and proficiency in this field encompass a broad range of technologies and tools, including HTML,
+                        CSS, and JavaScript. Combining my perseverance and determination with a creative approach to
+                        development, I create interactive and user-friendly interfaces. Eager to leverage my acquired
+                        experience, I strive to expand my knowledge and enhance my skills to create impressive and
+                        innovative web applications.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Frontend development</span><br>
+                                <br>
+                                I work with HTML, CSS, JS
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>2022</span><br>
+                                <br>
+                                I have been assisting my father in developing an online store, and I am currently
+                                actively working on it. My efforts are focused on creating a user-friendly and visually
+                                appealing interface, improving functionality, and ensuring a great user experience for
+                                customers.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2023</span><br>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Servises-->
+
+    <section id="services">
+        <div class="conteiner">
+            <h1 class="sub-title">My Servises</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend development</h2>
+                    <p>
+                        I provide frontend services with expertise in HTML, CSS, and JavaScript. My skills include
+                        developing structured and semantically correct HTML markup, styling web pages using CSS to
+                        create attractive and user-friendly designs, as well as building dynamic and interactive
+                        elements using JavaScript. With these skills, I am capable of creating web applications that
+                        deliver an unforgettable user experience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------portfolio------------- -->
+    <section id="portfolio">
+        <div class="conteiner">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/port1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Scroll effect</h3>
+                        <p>My project incorporates a scroll effect that creates an engaging design. This effect reveals
+                            content gradually as the page is scrolled, making the interaction with the user more dynamic
+                            and appealing.
+                        </p>
+                        <a href="https://flourishing-jelly-1e5ffa.netlify.app" target="_blank">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/port2.jpg" alt="" target="_blank">
+                    <div class="layer">
+                        <h3>Internet-shop</h3>
+                        <p>This is my first game.
+                        </p>
+                        <a href="https://graceful-liger-e8082f.netlify.app" target="_blank">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/port3.jpg" alt="" target="_blank">
+                    <div class="layer">
+                        <h3>Internet-shop</h3>
+                        <p>
+
+                            Created an online car dealership using HTML, CSS, and JavaScript, providing an attractive
+                            interface for customers to browse and select cars, ensuring a user-friendly shopping
+                            experience.
+                        </p>
+                        <a href="https://6480744b3d5aba0ea1e07950--venerable-marshmallow-10308c.netlify.app/"
+                            target="_blank">
+                            <i class="fa-solid fa-link"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </section>
+
+    <!-- -----------Contact--------------- -->
+    <section id="contact">
+        <div class="conteiner">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:rogovoyserg2006@gmail.com"
+                            target="_blank">rogovoyserg2006@gmail.com</a></p>
+                    <p><i class="fa-solid fa-square-phone"></i><a href="tel:+380956451225"
+                            target="_blank">+380956451225</a></p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/serg_o2006/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://t.me/RogSerg/"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                    <a href="img/my-cv.pdf" download class="btn btn2" target="_blank">DownLoad CV</a>
+                </div>
+            </div>
+        </div>
+        <footer class="copyright">
+            <p>Made with <i class="fa-solid fa-heart"></i> by Rogovoy Sergey</p>
+        </footer>
+    </section>
+
+    <script>
+        let tablinks = document.getElementsByClassName('tab-links');
+        let tabcontents = document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-link');
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tab')
+        }
+    </script>
+
+    <script>
+        let sidemenu = document.getElementById('sidemenu');
+
+        function openmenu() {
+            sidemenu.style.right = "0"
+        }
+        function closemenu() {
+            sidemenu.style.right = "-60%"
+        }
+    </script>
+</body>
+
+</html>
